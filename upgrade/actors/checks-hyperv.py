@@ -2,13 +2,14 @@ import os
 import re
 
 from leapp.actors import Actor
-from upgrade.channels import CheckOutputChannel
+from upgrade.models import CheckOutput
+
 
 class ChecksHyperv(Actor):
     name = 'checks-hyperv'
     description = 'For the actor checks-hyperv has been no description provided.'
-    input_channels = ()
-    output_channels = (CheckOutputChannel,)
+    consumes = ()
+    produces = (CheckOutput,)
     tags = ('ipu', 'checks')
 
     def process(self):
@@ -27,5 +28,5 @@ class ChecksHyperv(Actor):
             summary = "System is not virtualized"
             status = 'PASS'
             vendor = ''
-        self.outputs.check_output(check_actor=self.name, summary=summary, status=status, params=vendor)
+        self.produce(CheckOutput(check_actor=self.name, summary=summary, status=status, params=vendor))
 
