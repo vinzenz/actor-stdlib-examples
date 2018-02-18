@@ -1,4 +1,4 @@
-import os
+import subprocess
 import re
 
 from leapp.actors import Actor
@@ -13,20 +13,19 @@ class ChecksHyperv(Actor):
     tags = ('ipu', 'checks')
 
     def process(self):
-        lscpu = os.popen('lscpu').read()
+        lscpu = subprocess.check_output('lscpu', shell=True)
         line = re.search(r"(Hypervisor\s+vendor):\s+(.*)$", lscpu, flags=re.MULTILINE)
 
+        output = CheckOutput(check_actor=self.name, status='PASS', params='', summary='')
         if line:
-            vendor = line.group(2)
-            if 'Microsoft' in vendor:
-                summary = "The system is running as a Hyper-V guest on Microsoft Windows host"
-                status = 'FAIL'
+            output.params = line.group(2)
+            if 'Microsoft' in output.params:
+                output.summary = "The system is running as a Hyper-V guest on Microsoft Windows host"
+                output.status = 'FAIL'
             else:
-                summary = "The system is running as a virtualized guest"
-                status = 'PASS'
+                output.summary = "The system is running as a virtualized guest"
         else:
-            summary = "System is not virtualized"
-            status = 'PASS'
-            vendor = ''
-        self.produce(CheckOutput(check_actor=self.name, summary=summary, status=status, params=vendor))
+            output.summary = "System is not virtualized"
+
+        self.produce(output)
 
