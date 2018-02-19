@@ -1,6 +1,6 @@
 from leapp.models import Model, fields
 
-from upgrade.channels import CheckOutputChannel
+from leapp.channels import CheckOutputChannel
 
 
 class CheckOutput(Model):

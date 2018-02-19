@@ -1,8 +1,7 @@
 import subprocess
 
 from leapp.actors import Actor
-
-from upgrade.models import LanguagePackagePaths, RHPackages, CheckOutput
+from leapp.models import LanguagePackagePaths, RHPackages, CheckOutput
 
 COMMAND_TMPL = "rpm -qf {content}"
 

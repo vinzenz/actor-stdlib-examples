@@ -1,6 +1,5 @@
 from leapp.actors import Actor
-
-from upgrade.models import LanguagePaths
+from leapp.models import LanguagePaths
 
 
 class ListRubyPaths(Actor):

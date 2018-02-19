@@ -1,8 +1,7 @@
 import subprocess
 
 from leapp.actors import Actor
-
-from upgrade.models import CheckOutput, RHPackages
+from leapp.models import CheckOutput, RHPackages
 
 
 RHSIGN = ["199e2f91fd431d51",

@@ -1,6 +1,6 @@
 from leapp.models import Model, fields
 
-from upgrade.channels import SystemInfoChannel
+from leapp.channels import SystemInfoChannel
 
 
 class LanguagePaths(Model):

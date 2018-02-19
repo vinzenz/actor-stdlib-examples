@@ -1,8 +1,8 @@
-import subprocess
 import re
+import subprocess
 
 from leapp.actors import Actor
-from upgrade.models import CheckOutput
+from leapp.models import CheckOutput
 
 
 class ChecksHyperv(Actor):
@@ -27,5 +27,6 @@ class ChecksHyperv(Actor):
         else:
             output.summary = "System is not virtualized"
 
+        self.produce(output)
         self.produce(output)
 

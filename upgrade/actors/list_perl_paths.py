@@ -1,7 +1,7 @@
 import subprocess
 
 from leapp.actors import Actor
-from upgrade.models import LanguagePaths
+from leapp.models import LanguagePaths
 
 COMMAND = "perl -MConfig -e '$,=q{ }; print @Config{installarchlib,installprivlib,installvendorarch,installvendorlib}'"
 
