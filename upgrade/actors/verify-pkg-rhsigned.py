@@ -2,6 +2,7 @@ import subprocess
 
 from leapp.actors import Actor
 from leapp.models import CheckOutput, RHPackages
+from leapp.tags import IPUTag, FactsTag
 
 
 RHSIGN = ["199e2f91fd431d51",
@@ -17,7 +18,7 @@ class VerifyPkgRhsigned(Actor):
     description = 'For the actor verify-pkg-rhsigned has been no description provided.'
     consumes = (RHPackages,)
     produces = (CheckOutput,)
-    tags = ('ipu', 'checks')
+    tags = (IPUTag, FactsTag)
 
     def process(self):
         for message in self.consume():

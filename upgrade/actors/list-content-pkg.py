@@ -2,6 +2,7 @@ import subprocess
 
 from leapp.actors import Actor
 from leapp.models import LanguagePackagePaths, RHPackages, CheckOutput
+from leapp.tags import IPUTag, FactsTag
 
 COMMAND_TMPL = "rpm -qf {content}"
 
@@ -13,7 +14,7 @@ class ListContentPkg(Actor):
     '''
     consumes = (LanguagePackagePaths,)
     produces = (RHPackages,CheckOutput)
-    tags = ('ipu', 'facts')
+    tags = (IPUTag, FactsTag)
 
     def process(self):
         for message in self.consume():

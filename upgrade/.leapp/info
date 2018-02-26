@@ -1,1 +1,339 @@
-{"channel_data": {}, "name": "upgrade"}
+{
+  "channel_data": {
+    "check-output": [
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:06.136555Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:06.137800Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:21.889673Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:21.890829Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:39.063810Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:39.064962Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:41.334109Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:02:41.335357Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:11:52.253691Z"
+      }, 
+      {
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T08:11:52.254959Z"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T14:48:15.451581Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-22T14:48:15.452142Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:30:44.596598Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:30:44.597890Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:31:54.717840Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:31:54.718414Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:32:06.305300Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:32:06.306014Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:32:28.206164Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:32:28.206789Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:34:24.355324Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }, 
+      {
+        "actor": "checks-hyperv", 
+        "time": "2018-02-26T08:34:24.355850Z", 
+        "message": {
+          "status": "PASS", 
+          "check_action": null, 
+          "params": [
+            "KVM"
+          ], 
+          "check_actor": "checks-hyperv", 
+          "summary": "The system is running as a virtualized guest"
+        }, 
+        "type": "CheckOutput", 
+        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
+        "channel": "check-output"
+      }
+    ]
+  }, 
+  "name": "upgrade"
+}

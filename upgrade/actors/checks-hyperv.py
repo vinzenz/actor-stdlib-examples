@@ -3,14 +3,14 @@ import subprocess
 
 from leapp.actors import Actor
 from leapp.models import CheckOutput
-
+from leapp.tags import IPUTag, FactsTag
 
 class ChecksHyperv(Actor):
     name = 'checks-hyperv'
     description = 'For the actor checks-hyperv has been no description provided.'
     consumes = ()
     produces = (CheckOutput,)
-    tags = ('ipu', 'checks')
+    tags = (IPUTag, FactsTag)
 
     def process(self):
         lscpu = subprocess.check_output('lscpu', shell=True)
