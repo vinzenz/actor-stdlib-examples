@@ -5,7 +5,7 @@ from leapp.tags import IPUTag, FactsTag, CommonFactsTag, ChecksTag, CommonChecks
     CommonNetworkTag, StorageTag, CommonStorageTag, LateTestsTag, CommonLateTestsTag, PreparationTag,\
     CommonPreparationTag, RPMUpgradeTag, CommonRPMUpgradeTag, ApplicationsTag, CommonApplicationsTag,\
     ThirdPartyApplicationsTag, CommonThirdPartyApplicationsTag, FinalizationTag, CommonFinalizationTag,\
-    FirstBootTag, CommonFirstBootTag
+    FirstBootTag, CommonFirstBootTag, ReportTag, CommonReportTag
 
 
 class IPUWorkflow(Workflow):
@@ -30,10 +30,10 @@ class IPUWorkflow(Workflow):
                             Policies.Retry.Phase)
         flags = Flags()
 
-    class ChecksPhase(Phase):
-        name = 'Checks'
-        filter = Filter(TagFilter(IPUTag, phase=ChecksTag),
-                        TagFilter(phase=CommonChecksTag))
+    class ReportsPhase(Phase):
+        name = 'Reports'
+        filter = Filter(TagFilter(IPUTag, phase=ReportTag),
+                        TagFilter(phase=CommonReportTag))
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
