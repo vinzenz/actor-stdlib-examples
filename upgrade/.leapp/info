@@ -1,339 +1,187 @@
 {
-  "channel_data": {
-    "check-output": [
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:06.136555Z"
+  "channel_data": [
+    {
+      "stamp": "2018-03-13T08:59:17.890839Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:06.137800Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T08:59:17.898896Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:21.889673Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:22:26.033891Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:21.890829Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:22:26.041978Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:39.063810Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:22:47.411827Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:39.064962Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:22:47.417725Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:41.334109Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:02.187114Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:02:41.335357Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:02.193752Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:11:52.253691Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:05.495903Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T08:11:52.254959Z"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:05.503774Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T14:48:15.451581Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:43.080636Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-22T14:48:15.452142Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:24:43.087381Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35", 
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:30:44.596598Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:53:13.623415Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:30:44.597890Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }, 
+    {
+      "stamp": "2018-03-13T09:53:13.631863Z", 
+      "hostname": "evilMacBook.local", 
+      "actor": "checks-hyperv", 
+      "context": "TESTING-CONTEXT", 
+      "phase": "NON-WORKFLOW-EXECUTION", 
+      "message": {
+        "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}", 
+        "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:31:54.717840Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:31:54.718414Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:32:06.305300Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:32:06.306014Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:32:28.206164Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:32:28.206789Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:34:24.355324Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }, 
-      {
-        "actor": "checks-hyperv", 
-        "time": "2018-02-26T08:34:24.355850Z", 
-        "message": {
-          "status": "PASS", 
-          "check_action": null, 
-          "params": [
-            "KVM"
-          ], 
-          "check_actor": "checks-hyperv", 
-          "summary": "The system is running as a virtualized guest"
-        }, 
-        "type": "CheckOutput", 
-        "id": "977cabe8aec60bc221b3cd0cac83a283380ada0f738b6a7364dd3b94a29fb86a", 
-        "channel": "check-output"
-      }
-    ]
-  }, 
+      "type": "CheckOutput", 
+      "channel": "check-output"
+    }
+  ], 
   "name": "upgrade"
 }

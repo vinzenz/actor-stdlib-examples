@@ -1,4 +1,9 @@
-from leapp.workflows import Workflow, Phase, Flags, Filter, TagFilter, Policies
+from leapp.workflows import Workflow
+from leapp.workflows.phases import Phase
+from leapp.workflows.flags import Flags
+from leapp.workflows.filters import Filter
+from leapp.workflows.tagfilters import TagFilter
+from leapp.workflows.policies import Policies
 from leapp.tags import IPUTag, FactsTag, CommonFactsTag, ChecksTag, CommonChecksTag, ChecksTag, CommonChecksTag, \
     AttachPackageReposTag, CommonAttachPackageReposTag, PlanningTag, CommonPlanningTag, DownloadTag, CommonDownloadTag,\
     InterimPreparationTag, CommonInterimPreparationTag, InitRamStartTag, CommonInitRamStartTag, NetworkTag,\
@@ -16,136 +21,119 @@ class IPUWorkflow(Workflow):
 
     class FactsCollectionPhase(Phase):
         name = 'Facts collection'
-        filter = Filter(TagFilter(IPUTag, phase=FactsTag),
-                        TagFilter(phase=CommonFactsTag))
+        filter = TagFilter(FactsTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class ChecksPhase(Phase):
         name = 'Checks'
-        filter = Filter(TagFilter(IPUTag, phase=ChecksTag),
-                        TagFilter(phase=CommonChecksTag))
+        filter = TagFilter(ChecksTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class ReportsPhase(Phase):
         name = 'Reports'
-        filter = Filter(TagFilter(IPUTag, phase=ReportTag),
-                        TagFilter(phase=CommonReportTag))
+        filter = TagFilter(ReportTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class AttachPackageReposPhase(Phase):
         name = 'AttachPackageRepos'
-        filter = Filter(TagFilter(IPUTag, phase=AttachPackageReposTag),
-                        TagFilter(phase=CommonAttachPackageReposTag))
+        filter = TagFilter(AttachPackageReposTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class PlanningPhase(Phase):
         name = 'Planning'
-        filter = Filter(TagFilter(IPUTag, phase=PlanningTag),
-                        TagFilter(phase=CommonPlanningTag))
+        filter = TagFilter(PlanningTag)                 
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class DownloadPhase(Phase):
         name = 'Download'
-        filter = Filter(TagFilter(IPUTag, phase=DownloadTag),
-                        TagFilter(phase=CommonDownloadTag))
+        filter = TagFilter(DownloadTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class InterimPreparationPhase(Phase):
         name = 'InterimPreparation'
-        filter = Filter(TagFilter(IPUTag, phase=InterimPreparationTag),
-                        TagFilter(phase=CommonInterimPreparationTag))
+        filter = TagFilter(InterimPreparationTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class InitRamStartPhase(Phase):
         name = 'InitRamStart'
-        filter = Filter(TagFilter(IPUTag, phase=InitRamStartTag),
-                        TagFilter(phase=CommonInitRamStartTag))
+        filter = TagFilter(InitRamStartTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class NetworkPhase(Phase):
         name = 'Network'
-        filter = Filter(TagFilter(IPUTag, phase=NetworkTag),
-                        TagFilter(phase=CommonNetworkTag))
+        filter = TagFilter(NetworkTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class StoragePhase(Phase):
         name = 'Storage'
-        filter = Filter(TagFilter(IPUTag, phase=StorageTag),
-                        TagFilter(phase=CommonStorageTag))
+        filter = TagFilter(StorageTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class LateTestsPhase(Phase):
         name = 'LateTests'
-        filter = Filter(TagFilter(IPUTag, phase=LateTestsTag),
-                        TagFilter(phase=CommonLateTestsTag))
+        filter = TagFilter(LateTestsTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class PreparationPhase(Phase):
         name = 'Preparation'
-        filter = Filter(TagFilter(IPUTag, phase=PreparationTag),
-                        TagFilter(phase=CommonPreparationTag))
+        filter = TagFilter(PreparationTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class RPMUpgradePhase(Phase):
         name = 'RPMUpgrade'
-        filter = Filter(TagFilter(IPUTag, phase=RPMUpgradeTag),
-                        TagFilter(phase=CommonRPMUpgradeTag))
+        filter = TagFilter(RPMUpgradeTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class ApplicationsPhase(Phase):
         name = 'Applications'
-        filter = Filter(TagFilter(IPUTag, phase=ApplicationsTag),
-                        TagFilter(phase=CommonApplicationsTag))
+        filter = TagFilter(ApplicationsTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class ThirdPartyApplicationsPhase(Phase):
         name = 'ThirdPartyApplications'
-        filter = Filter(TagFilter(IPUTag, phase=ThirdPartyApplicationsTag),
-                        TagFilter(phase=CommonThirdPartyApplicationsTag))
+        filter = TagFilter(ThirdPartyApplicationsTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class FinalizationPhase(Phase):
         name = 'Finalization'
-        filter = Filter(TagFilter(IPUTag, phase=FinalizationTag),
-                        TagFilter(phase=CommonFinalizationTag))
+        filter = TagFilter(FinalizationTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()
 
     class FirstBootPhase(Phase):
         name = 'FirstBoot'
-        filter = Filter(TagFilter(IPUTag, phase=FirstBootTag),
-                        TagFilter(phase=CommonFirstBootTag))
+        filter = TagFilter(FirstBootTag)
         policies = Policies(Policies.Errors.FailPhase,
                             Policies.Retry.Phase)
         flags = Flags()

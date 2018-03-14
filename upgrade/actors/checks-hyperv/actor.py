@@ -1,6 +1,11 @@
 import re
 import subprocess
 
+from leapp.libraries.actor.foo import NAME as FOO_NAME
+from leapp.libraries.actor.foo import bar
+from leapp.libraries.actor.foo.bar import NAME as BAR_NAME
+from leapp.libraries.actor import test
+
 from leapp.actors import Actor
 from leapp.models import CheckOutput
 from leapp.tags import IPUTag, FactsTag
@@ -29,4 +34,6 @@ class ChecksHyperv(Actor):
 
         self.produce(output)
         self.produce(output)
+        self.log.info("ChecksHyperv dared to log something")
+        self.log.info("Well we imported, foo.NAME = %s, bar.NAME = %s, BAR_NAME = %s, test.NAME = %s", FOO_NAME, bar.NAME, BAR_NAME, test.NAME)
 
