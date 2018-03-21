@@ -4,13 +4,9 @@ from leapp.workflows.flags import Flags
 from leapp.workflows.filters import Filter
 from leapp.workflows.tagfilters import TagFilter
 from leapp.workflows.policies import Policies
-from leapp.tags import IPUTag, FactsTag, CommonFactsTag, ChecksTag, CommonChecksTag, ChecksTag, CommonChecksTag, \
-    AttachPackageReposTag, CommonAttachPackageReposTag, PlanningTag, CommonPlanningTag, DownloadTag, CommonDownloadTag,\
-    InterimPreparationTag, CommonInterimPreparationTag, InitRamStartTag, CommonInitRamStartTag, NetworkTag,\
-    CommonNetworkTag, StorageTag, CommonStorageTag, LateTestsTag, CommonLateTestsTag, PreparationTag,\
-    CommonPreparationTag, RPMUpgradeTag, CommonRPMUpgradeTag, ApplicationsTag, CommonApplicationsTag,\
-    ThirdPartyApplicationsTag, CommonThirdPartyApplicationsTag, FinalizationTag, CommonFinalizationTag,\
-    FirstBootTag, CommonFirstBootTag, ReportTag, CommonReportTag
+from leapp.tags import IPUTag, FactsTag, ChecksTag, ChecksTag, AttachPackageReposTag, PlanningTag, DownloadTag,\
+    InterimPreparationTag, InitRamStartTag, NetworkTag, StorageTag, LateTestsTag, PreparationTag, RPMUpgradeTag, \
+    ApplicationsTag, ThirdPartyApplicationsTag, FinalizationTag, FirstBootTag, ReportTag
 
 
 class IPUWorkflow(Workflow):

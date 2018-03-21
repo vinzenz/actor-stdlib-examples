@@ -1,6 +1,6 @@
 from leapp.actors import Actor
 from leapp.models import CheckOutput
-from leapp.tags import IPUTag, FactsTag
+from leapp.tags import IPUTag, ReportTag
 
 from leapp.libraries.common.upgrade import NAME
 from leapp.libraries.common import upgrade, test
@@ -11,7 +11,7 @@ class Reporttest(Actor):
     description = 'For the actor reporttest has been no description provided.'
     consumes = (CheckOutput,)
     produces = ()
-    tags = (IPUTag, FactsTag)
+    tags = (IPUTag, ReportTag)
 
     def process(self):
         self.log.info('output: %s', pformat(list(CheckOutput.__schema__().dump(item).data for item in self.consume(CheckOutput)), ))
