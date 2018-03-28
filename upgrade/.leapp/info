@@ -1,5 +1,5 @@
 {
-  "channel_data": [
+  "messages": [
     {
       "stamp": "2018-03-13T08:59:17.890839Z", 
       "hostname": "evilMacBook.local", 
@@ -11,7 +11,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T08:59:17.898896Z", 
@@ -24,7 +24,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:22:26.033891Z", 
@@ -37,7 +37,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:22:26.041978Z", 
@@ -50,7 +50,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:22:47.411827Z", 
@@ -63,7 +63,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:22:47.417725Z", 
@@ -76,7 +76,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:02.187114Z", 
@@ -89,7 +89,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:02.193752Z", 
@@ -102,7 +102,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:05.495903Z", 
@@ -115,7 +115,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:05.503774Z", 
@@ -128,7 +128,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:43.080636Z", 
@@ -141,7 +141,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:24:43.087381Z", 
@@ -154,7 +154,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:53:13.623415Z", 
@@ -167,7 +167,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-13T09:53:13.631863Z", 
@@ -180,7 +180,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:29:29.870086Z", 
@@ -193,7 +193,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:29:29.874957Z", 
@@ -206,7 +206,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:30:04.662530Z", 
@@ -219,7 +219,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:30:04.667214Z", 
@@ -232,7 +232,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:31:07.048950Z", 
@@ -245,7 +245,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T08:31:07.053986Z", 
@@ -258,7 +258,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:26:39.569477Z", 
@@ -271,7 +271,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:26:39.574226Z", 
@@ -284,7 +284,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:33:22.568468Z", 
@@ -297,7 +297,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:33:22.573458Z", 
@@ -310,7 +310,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:36:55.037220Z", 
@@ -323,7 +323,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T09:36:55.042360Z", 
@@ -336,7 +336,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:38:25.494773Z", 
@@ -349,7 +349,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:38:25.499358Z", 
@@ -362,7 +362,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:40:45.886269Z", 
@@ -375,7 +375,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:40:45.891791Z", 
@@ -388,7 +388,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:41:04.260880Z", 
@@ -401,7 +401,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-19T13:41:04.265676Z", 
@@ -414,7 +414,7 @@
         "hash": "e9aea91c32ba8f5a3ccc20bf0d4b9265b9e9f896855bd96a771538a34a0d3e35"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-21T12:39:38.231955Z", 
@@ -427,7 +427,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }, 
     {
       "stamp": "2018-03-21T12:39:38.236457Z", 
@@ -440,7 +440,7 @@
         "data": "{\"check_action\": null, \"check_actor\": \"checks-hyperv\", \"params\": [\"KVM\"], \"status\": \"PASS\", \"summary\": \"The system is running as a virtualized guest\"}"
       }, 
       "type": "CheckOutput", 
-      "channel": "check-output"
+      "topic": "check-output"
     }
   ], 
   "name": "upgrade"

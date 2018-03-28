@@ -1,21 +1,21 @@
 from leapp.models import Model, fields
 
-from leapp.channels import SystemInfoChannel
+from leapp.topics import SystemInfoTopic
 
 
 class LanguagePaths(Model):
-    channel = SystemInfoChannel
-    paths = fields.List(fields.String, required=True)
+    topic = SystemInfoTopic
+    paths = fields.List(fields.String(), required=True)
     context = fields.String(required=True)
 
 
 class LanguagePackagePaths(Model):
-    channel = SystemInfoChannel
-    paths = fields.List(fields.String, required=True)
+    topic = SystemInfoTopic
+    paths = fields.List(fields.String(), required=True)
     context = fields.String(required=True)
 
 
 class RHPackages(Model):
-    channel = SystemInfoChannel
-    packages = fields.List(fields.String, required=True)
+    topic = SystemInfoTopic
+    packages = fields.List(fields.String(), required=True)
     context = fields.String(required=True)

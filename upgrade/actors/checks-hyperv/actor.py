@@ -21,9 +21,9 @@ class ChecksHyperv(Actor):
         lscpu = subprocess.check_output('lscpu', shell=True)
         line = re.search(r"(Hypervisor\s+vendor):\s+(.*)$", lscpu, flags=re.MULTILINE)
 
-        output = CheckOutput(check_actor=self.name, status='PASS', params='', summary='')
+        output = CheckOutput(check_actor=self.name, status='PASS', params=[], summary='')
         if line:
-            output.params = line.group(2)
+            output.params = [line.group(2)]
             if 'Microsoft' in output.params:
                 output.summary = "The system is running as a Hyper-V guest on Microsoft Windows host"
                 output.status = 'FAIL'

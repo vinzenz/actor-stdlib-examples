@@ -13,5 +13,5 @@ class ListRubyPaths(Actor):
     def process(self):
         self.produce(
             LanguagePaths(
-                path=['/usr/lib/ruby/site_ruby/*/*', '/usr/lib/ruby/gems/*/gems/*'],
+                paths=['/usr/lib/ruby/site_ruby/*/*', '/usr/lib/ruby/gems/*/gems/*'],
                 context='Ruby'))
